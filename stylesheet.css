@@ -1,0 +1,179 @@
+*{ 
+	margin: 0px;
+	padding: 0px;
+ }
+html, body
+{
+	height: 100%;
+	background-image: url("media/BG_Rays.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+header
+{
+	height: 10%;
+	text-align: center;
+}
+footer
+{
+	height:10%x;
+	width: 100%;
+	clear: both;
+}
+h3
+{
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tile
+{
+	z-index: 2;
+	position: relative;
+	margin-bottom: -5px;
+}
+.cover
+{
+	z-index: 3;
+	position: relative;
+	margin-bottom: -5px;
+}
+.button
+{
+	text-decoration:none; 
+	text-align:center; 
+	padding:11px 32px; 
+	border:none; 
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px; 
+	border-radius: 4px; 
+	font:20px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#E5FFFF; 
+	background-color:#3BA4C7; 
+	background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+	background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+	background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+	background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+	background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);   
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  	margin-left: 100px;
+  }
+  .button:hover
+  {
+	padding:11px 32px; 
+	border:none; 
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px; 
+	border-radius: 4px; 
+	font:20px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#E5FFFF; 
+	background-color:#76c8e3; 
+	background-image: -moz-linear-gradient(top, #76c8e3 0%, #58a1ba 100%); 
+	background-image: -webkit-linear-gradient(top, #76c8e3 0%, #58a1ba 100%); 
+	background-image: -o-linear-gradient(top, #76c8e3 0%, #58a1ba 100%); 
+	background-image: -ms-linear-gradient(top, #76c8e3 0% ,#58a1ba 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58a1ba', endColorstr='#58a1ba',GradientType=0 ); 
+	background-image: linear-gradient(top, #76c8e3 0% ,#58a1ba 100%);   
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+ }
+#title
+{
+	border: 4px solid;
+	border-radius: 8px;
+	background-color: aquamarine;
+	width: 20%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200%;
+}
+#instructions
+{
+	height: 60%;
+	width: 30%;
+	float: left;
+}
+#rules
+{
+	list-style: decimal inside;
+	border: 4px solid;
+	border-radius: 8px;
+	background-color: white;
+	width: 90%;
+	float: right;
+	padding: 5px;
+}
+#spacer
+{
+	height: 60%;
+	width: 5%;
+	float: left;
+}
+#bgimg
+{
+	z-index: 1;
+	position: absolute;
+}
+#main
+{
+	height:60%;
+	width: 35%;
+	float: left;
+
+}
+#tiles
+{
+	position: absolute;
+	width: 600px;
+}
+#covers
+{
+	position: absolute;
+	width: 600px;
+	cursor: pointer;
+}
+#buttons
+{
+	position: absolute;
+	bottom: 0;
+}
+#right
+{
+	height: 60%;
+	width: 30%;
+	float: left;
+}
+#stats
+{
+	border: 4px solid;
+	border-radius: 8px;
+	background-color: lightgreen;
+	padding: 5px;
+	width: 300px;
+}
+#botleft
+{
+	height: 20%;
+	width: 35%;
+	float: left;
+}
+#botmid
+{
+	position:relative;
+	height: 20%;
+	width: 35%;
+	float: left;
+}
+#botright
+{
+	height: 20%;
+	width: 30%;
+	float: left;
+}
